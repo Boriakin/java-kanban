@@ -5,10 +5,10 @@ import java.util.Objects;
 import static ru.practicum.tracker.model.Status.NEW;
 
 public class Task {
+    protected int id;
     protected String name;
     protected String description;
     protected Status status;
-    protected int id;
 
     public Task(String name, String description) {
         this.name = name;
