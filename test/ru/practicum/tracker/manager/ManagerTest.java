@@ -6,16 +6,16 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class ManagerTest {
-    private Manager managers;
+    private Manager manager;
 
     @BeforeEach
     public void setUp() {
-        managers = new Manager();
+        manager = new Manager();
     }
 
     @Test
     public void getDefaultShouldReturnInMemoryTaskManager() {
-        TaskManager manager = managers.getDefault();
+        TaskManager manager = this.manager.getDefault();
         assertNotNull(manager);
     }
 
