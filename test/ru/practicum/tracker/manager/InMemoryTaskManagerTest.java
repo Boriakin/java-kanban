@@ -1,7 +1,7 @@
-package ru.practicum.tracker.test.manager;
+package ru.practicum.tracker.manager;
 
-import org.junit.jupiter.api.*;
-import ru.practicum.tracker.manager.InMemoryTaskManager;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import ru.practicum.tracker.model.*;
 
 import java.util.List;

@@ -1,7 +1,6 @@
 package ru.practicum.tracker.manager;
 
 import ru.practicum.tracker.model.*;
-import ru.practicum.tracker.util.Managers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,7 +12,7 @@ public class InMemoryTaskManager implements TaskManager {
     private final HashMap<Integer, Epic> epics = new HashMap<>();
     private final HashMap<Integer, Subtask> subtasks = new HashMap<>();
     private int nextId = 1;
-    private final HistoryManager historyManager = Managers.getDefaultHistory();
+    private final HistoryManager historyManager = Manager.getDefaultHistory();
 
     @Override
     public void addTask(Task task) {

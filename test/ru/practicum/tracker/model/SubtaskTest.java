@@ -1,10 +1,10 @@
-package ru.practicum.tracker.test.model;
+package ru.practicum.tracker.model;
 
-import org.junit.jupiter.api.*;
-import ru.practicum.tracker.model.*;
-import ru.practicum.tracker.model.Task;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class SubtaskTest {
 

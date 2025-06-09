@@ -1,8 +1,6 @@
-package ru.practicum.tracker.util;
+package ru.practicum.tracker.manager;
 
-import ru.practicum.tracker.manager.*;
-
-public class Managers {
+public class Manager {
     public TaskManager getDefault() {
         return new InMemoryTaskManager();
     }

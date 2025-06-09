@@ -1,10 +1,11 @@
-package ru.practicum.tracker.test.model;
+package ru.practicum.tracker.model;
 
-import org.junit.jupiter.api.*;
-import ru.practicum.tracker.model.Task;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static ru.practicum.tracker.model.Status.*;
+import static ru.practicum.tracker.model.Status.IN_PROGRESS;
+import static ru.practicum.tracker.model.Status.NEW;
 
 public class TaskTest {
 
